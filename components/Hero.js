@@ -27,7 +27,7 @@ const Hero = () => {
               Discover, collect, and sell extraordinary NFTs
             </div>
             <div className={style.description}>
-              OpenSea is the world&apos;s first and largest NFT marketplace
+              Unifica is the world&apos;s first and largest NFT marketplace
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Explore</button>
@@ -50,7 +50,7 @@ const Hero = () => {
                 <div className={style.name}>Jolly</div>
                 <a
                   className="text-[#1868b7]"
-                  href="https://i.pinimg.com/564x/7d/26/01/7d26013eafccbdbb93a321da08cd0d6c.jpg"
+                  href="https://Unifica.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/2324922113504035910649522729980423429926362207300810036887725141691069366277"
                 >
                   hola-kanola
                 </a>

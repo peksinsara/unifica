@@ -1,1 +1,6 @@
-- fix sanity client
+on collection page \
+-fix buttons for social medias
+- ethereum icon doesn't show when
+- NFTCard details buttons fix
+
+- Profile page
