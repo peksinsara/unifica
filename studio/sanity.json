@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "unifica"
-  },
   "api": {
     "projectId": "64o8ql5u",
     "dataset": "production"
+  },
+  "project": {
+    "name": "unifica"
   },
   "plugins": [
     "@sanity/base",

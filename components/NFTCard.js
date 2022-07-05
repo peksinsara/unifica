@@ -55,7 +55,7 @@ const NFTCard = ({ nftItem, title, listings }) => {
               <div className={style.priceTag}>Price</div>
               <div className={style.priceValue}>
                 <img
-                  src="https://storage.Unifica.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/1202px-Ethereum_logo_translucent.svg.png"
                   alt="eth"
                   className={style.ethLogo}
                 />
