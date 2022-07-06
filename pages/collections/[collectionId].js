@@ -140,15 +140,23 @@ const Collection = () => {
             <div className={style.socialIconsWrapper}>
               <div className={style.socialIconsContent}>
                 <div className={style.socialIcon}>
-                  <CgWebsite />
+                  <a href="https://cutt.ly/sarapeksin">
+                    {' '}
+                    <CgWebsite />
+                  </a>
                 </div>
                 <div className={style.divider} />
                 <div className={style.socialIcon}>
-                  <AiOutlineInstagram />
+                  <a href="https://instagram.com/elven.soul">
+                    {' '}
+                    <AiOutlineInstagram />
+                  </a>
                 </div>
                 <div className={style.divider} />
                 <div className={style.socialIcon}>
-                  <AiOutlineTwitter />
+                  <a href="https://twitter.com/elven_soul">
+                    <AiOutlineTwitter />
+                  </a>
                 </div>
                 <div className={style.divider} />
                 <div className={style.socialIcon}>
