@@ -40,9 +40,6 @@ const Header = () => {
         <Link href="/collections/0x925DA74999536601695918998b9A42D7129bF89C">
           <div className={style.headerItem}> Collections </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
-        <div className={style.headerItem}> Resources </div>
-        <div className={style.headerItem}> Create </div>
         <div className={style.headerIcon}>
           <CgProfile />
         </div>

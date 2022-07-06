@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Project from '../components/Project'
+import About from '../components/About'
 import Hero from '../components/Hero'
 import { useWeb3 } from '@3rdweb/hooks'
 import { useEffect } from 'react'
@@ -51,6 +53,8 @@ export default function Home() {
         <>
           <Header />
           <Hero />
+          <About/>
+          <Project/>
         </>
       ) : (
         <div className={style.walletConnectWrapper}>

@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --primary-color: #0fB8e0;
+  --primary-dark: #0d2154;
+}
+
 html,
 body {
   background-color: #202225;
-  padding: 0;
+  padding: 0 ;
   margin: 0;
 }
 
@@ -16,4 +23,150 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+ 
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: .7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 4px;
+  
+}
+
+button:hover {
+  background-color: #47dcff;
+  border: 1px solid #47dcff;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+}
+.content1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.content2 img {
+  height: 80%;
+}
+.content2 {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+.about {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url("../assets/wallpaper.png") no-repeat center center/cover;
+
+}
+
+.about .content {
+  top: 30%;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about .content1 {
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.about h2 {
+  color: #f8f8f8;
+}
+
+.about p {
+  color: #f8f8f8;
+  margin: 1rem 0;
+}
+.about-container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding-top: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 940px) {
+  .about .content {
+    width: 100%;
+  }
+}
+
+
+.project {
+  background: url("../assets/wallpaper.png") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+}
+p{
+  color: white;
+}
+
+.project-content {
+  max-width: 1240px;
+  margin: auto;
+}
+.project-overview {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.project-technologies {
+  display: flex;
+  flex-direction: row;
+  padding-top:50px;
+  justify-content: center;
+
+}
+.project-technology-single {
+  width: 25%;
+  background-color: #fe018c9b;
+  margin: 12px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.custom img{
+width:120px;
+height:64px;
+}
+.project-technology-single h3{
+  margin-top:20px;
 }
